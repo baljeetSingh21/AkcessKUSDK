@@ -2,9 +2,9 @@ import Foundation
 public struct AkcessKUSDK {
     private let BASE_URL = "https://edu-ku-kw.akcess.app"
     private let API = "/api"
-    private let FIND_BY_EMAIL_OR_PHONE = "/findbyemailorphone'"
-    private let ID_BY_AKCESS_ID = "/idbyakcessid'"
-    private let DOCUMENT_LIST = "/getdocumentlist'"
+    private let FIND_BY_EMAIL_OR_PHONE = "/findbyemailorphone"
+    private let ID_BY_AKCESS_ID = "/idbyakcessid"
+    private let DOCUMENT_LIST = "/getdocumentlist"
     private let CERTIFICATE_LIST = "/certicatebyid'"
     private let COUNTRY_LIST = "/getallcountry"
     private let ADD_STUDENTS = "/adduser"
@@ -156,7 +156,7 @@ public struct AkcessKUSDK {
            var request = URLRequest(url: url)
            request.httpMethod = "POST"
            request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-         
+           
            request.setValue("*/*", forHTTPHeaderField: "Accept")
 
            do {
