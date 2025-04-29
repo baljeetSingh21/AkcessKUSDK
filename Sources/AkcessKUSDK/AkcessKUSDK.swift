@@ -5,7 +5,7 @@ public struct AkcessKUSDK {
     private let FIND_BY_EMAIL_OR_PHONE = "/findbyemailorphone"
     private let ID_BY_AKCESS_ID = "/idbyakcessid"
     private let DOCUMENT_LIST = "/getdocumentlist"
-    private let CERTIFICATE_LIST = "/certicatebyid'"
+    private let CERTIFICATE_LIST = "/certicatebyid"
     private let COUNTRY_LIST = "/getallcountry"
     private let ADD_STUDENTS = "/adduser"
     private let NOTIFICATION_LIST = "/getpushnotificationslist"
